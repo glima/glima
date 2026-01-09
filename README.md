@@ -1,16 +1,17 @@
 ## Hi there 👋
 
-<!--
-**glima/glima** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+I'm **glima** - connect with me on Nostr!
 
-Here are some ideas to get you started:
+### 🔗 Links
+- 🌐 [My Nostr Landing Page](https://glima.github.io/glima/) - View my profile, zap and follow me!
+- 🔐 Nostr NIP-05: `limachaves@iris.to`
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+### ⚡ About
+This profile includes interactive Nostr components powered by [nostr-components](https://github.com/saiy2k/nostr-components):
+- 👤 Nostr Profile display
+- ⚡ Zap button (send Lightning payments)
+- 👥 Follow button
+
+---
+
+💙 **Spread Nostr Everywhere!** 🚀
