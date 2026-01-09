@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>glima - Nostr Profile</title>
+    
+    <!-- Load Nostr Components -->
+    <script type="module" src="https://cdn.jsdelivr.net/npm/nostr-components@latest/dist/nostr-components.es.js"></script>
+    
+    <!-- Optional: Dark theme -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/nostr-components@latest/dist/themes/dark.css">
+    
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 40px 20px;
+            background: #0d1117;
+            color: #c9d1d9;
+        }
+        
+        h1 {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+        
+        .profile-section {
+            margin-bottom: 40px;
+        }
+        
+        .buttons-section {
+            display: flex;
+            gap: 20px;
+            justify-content: center;
+            flex-wrap: wrap;
+            margin: 30px 0;
+        }
+        
+        .section-title {
+            font-size: 1.5em;
+            margin-bottom: 20px;
+            border-bottom: 2px solid #30363d;
+            padding-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>👋 Welcome to glima's Nostr Profile</h1>
+    
+    <div class="buttons-section">
+        <nostr-zap-button 
+            nip05="limachaves@iris.to"
+            text="⚡ Zap Me"
+        ></nostr-zap-button>
+        
+        <nostr-follow-button
+            nip05="limachaves@iris.to"
+        ></nostr-follow-button>
+    </div>
+    
+    <div class="profile-section">
+        <h2 class="section-title">Nostr Profile</h2>
+        <nostr-profile
+            nip05="limachaves@iris.to"
+        ></nostr-profile>
+    </div>
+</body>
+</html>
